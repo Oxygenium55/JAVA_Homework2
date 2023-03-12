@@ -12,7 +12,7 @@ package homework2;
 
 public class task2 {
     public static void main(String[] args) throws Exception {
-        String [] arrayData =  lib.ReadLineFromFile("data2.txt");
+        String [] arrayData =  lib.ReadLineFromFile(pathway: "homework2\data2.txt");
         for(int i = 0; i < arrayData.length; i++) {
             System.out.println(PrintLine(arrayData[i]));
         }
