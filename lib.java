@@ -21,9 +21,8 @@ public class lib {
             }
         br1.close();
         return listData;
-    
     }   
-    // Печать массива чисел 
+
     public static void printArrayInt(int[] arr) {
         for (int i = 0; i < arr.length-1; i++) {
             System.out.printf("%d, ", arr[i]);
