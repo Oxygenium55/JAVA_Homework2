@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class task3 {
     public static void main(String[] args) {
-
+        System.out.println("Введите число: ");
         Scanner in = new Scanner(System.in);
         String string = in.next();
         System.out.println(isPalindrom(string));
